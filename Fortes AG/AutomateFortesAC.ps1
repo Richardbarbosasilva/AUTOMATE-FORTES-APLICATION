@@ -1,7 +1,7 @@
 $pasta_rede = "insert a UNC path here"
 
 # localhost destiny
-$destino = "insert a local path where your fortes ac files are in"
+$destino = "insert a local path where your fortes ag files are in"
 
 # Verify if the Fortes Folder does exists
 if (Test-Path $pasta_rede) {
