@@ -36,7 +36,7 @@ if exist "%caminhodownloads%" (
 
 :Filenotfound
 
-echo Script PowerShell automatefortesag.ps1 not found, verify it's path and try once again.
+echo Script PowerShell automatefortesac.ps1 not found, verify it's path and try once again.
 
 :: exit or pause
 
