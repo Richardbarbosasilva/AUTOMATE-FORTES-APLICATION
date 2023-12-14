@@ -1,3 +1,5 @@
+#it will push files from Fortes Network's folder (UNC path)
+
 $pasta_rede = "insert a UNC path here"
 
 # localhost destiny
