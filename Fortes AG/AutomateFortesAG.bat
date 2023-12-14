@@ -13,23 +13,23 @@ set "caminhopastaatual=%~dp0automatefortesag.ps1"
 if exist "%caminhodownloads%" (
     echo Arquivo encontrado. Iniciando PowerShell.
     :: Bypasses powershell's policy execution, executes it with admin privileges and close the powershell's window after concludes the process.
-    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesac.ps1\"' -Verb RunAs}"
+    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesag.ps1\"' -Verb RunAs}"
 ) else if exist "%caminhoareadetrabalho%" (
     echo Arquivo encontrado. Iniciando PowerShell.
      :: Bypasses powershell's policy execution, executes it with admin privileges and close the powershell's window after concludes the process.
-  PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesac.ps1\"' -Verb RunAs}"
+  PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesag.ps1\"' -Verb RunAs}"
 ) else if exist "%caminhodocumentos%" (
     echo Arquivo encontrado. Iniciando PowerShell.
     :: Bypasses powershell's policy execution, executes it with admin privileges and close the powershell's window after concludes the process.
-    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesac.ps1\"' -Verb RunAs}"
+    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesag.ps1\"' -Verb RunAs}"
 ) else if exist "%caminhopastafortes%" (
     echo Arquivo encontrado. Iniciando PowerShell.
     :: Bypasses powershell's policy execution, executes it with admin privileges and close the powershell's window after concludes the process.
-   PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesac.ps1\"' -Verb RunAs}"
+   PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesag.ps1\"' -Verb RunAs}"
 ) else if exist "%caminhopastaatual%" (    
    echo Arquivo encontrado. Iniciando PowerShell.
     :: Bypasses powershell's policy execution, executes it with admin privileges and close the powershell's window after concludes the process.
-    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesac.ps1\"' -Verb RunAs}"
+    PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File \"%~dp0automatefortesag.ps1\"' -Verb RunAs}"
 ) else (
     goto :Filenotfound
 )
