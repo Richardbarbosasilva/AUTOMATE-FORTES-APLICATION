@@ -14,7 +14,4 @@
 - The script's execution time is reduced by more than half (usually less than 6s).
 
   
-PATCH ## [1.1] - 2023-12-18
 
-### Added
-- 
