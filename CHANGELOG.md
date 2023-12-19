@@ -1,6 +1,6 @@
-Registro de Alterações
+#Registro de Alterações
 [1.0.0] - 01/12/2023
-Adicionado
+##Adicionado
 Os scripts de Automação Fortes (AC, AG, PONTO) agora estão funcionais, implementados para todos os usuários do domínio.
 [1.0.1] - 13/12/2023
 Adicionado
