@@ -1,20 +1,16 @@
-# Changelog
-
-## [1.0.0] - 2023-12-01
-### Added
-- Automation Fortes (AC, AG, PONTO) scripts are now functional, implemented for all domain users.
-
-## [1.0.1] - 2023-12-13
-### Added
-- The scripts are now non-interactive, auto-run after PC's initialization by GPO's logon script functionality, also auto-closes after executing the automation.
-
-## [1.0.2] - 2023-12-15
-### Added
-- The scripts self-execute in minimized mode, without showing any windows on the user's desktop screen.
-- The script's execution time is reduced by more than half (usually less than 6s).
-
-## [1.1] - 2023-12-19
-### Added
-- AC, AG, PONTO scripts are now integrated in only one script that executes all the three automations at once.
-- The script's execution time now lasts 50% more than it's previous version (usually 9s).
-- Now the automation is only executed if the User has the Fortes folder, if he has no one, or has only one or two of the three fortes, the automation runs only on those folders.  
+# Registro de Alterações
+## [1.0.0] - 01/12/2023
+### Adicionado
+Os scripts de Automação Fortes (AC, AG, PONTO) agora estão funcionais, implementados para todos os usuários do domínio.
+## [1.0.1] - 13/12/2023
+### Adicionado
+Os scripts agora são não interativos, sendo executados automaticamente após a inicialização do PC por meio da funcionalidade de script de logon do GPO. Também se encerram automaticamente após a execução da automação.
+## [1.0.2] - 15/12/2023
+### Adicionado
+Os scripts se autoexecutam em modo minimizado, sem exibir janelas na área de trabalho do usuário.
+O tempo de execução do script foi reduzido em mais da metade (geralmente menos de 6 segundos).
+## [1.1] - 19/12/2023
+### Adicionado
+Os scripts AC, AG, PONTO estão agora integrados em apenas um script que executa todas as três automações de uma vez.
+O tempo de execução do script agora dura 50% a mais do que a versão anterior (geralmente 9 segundos).
+Agora, a automação é executada apenas se o usuário tiver a pasta Fortes; se ele não tiver, ou tiver apenas uma ou duas das três fortes, a automação é executada apenas nessas pastas.
