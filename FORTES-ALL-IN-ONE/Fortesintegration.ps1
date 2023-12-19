@@ -1,10 +1,10 @@
 #This Fortes automation is a junction of three another automations, made to run for all users inside a domain.
 
 # path to AC network folder 
-$pasta_redeAC = "\\arquivos.clickip.local\UPGRADEFORTES\Fortes\AC"
+$pasta_redeAC = "INSERT A UNC PATH HERE"
 
 # Path to AC localhost folder
-$destinoAC = "C:\Fortes\AC"
+$destinoAC = "INSERT THE DESTINY OF YOUR FORTES FOLDER HERE"
 
 # Verify if the network's AC folder does exist
 if (Test-Path $pasta_redeAC -PathType Container) {
@@ -37,10 +37,10 @@ if (Test-Path $pasta_redeAC -PathType Container) {
 
 
 # path to AG network folder
-$pasta_redeAG = "\\arquivos.clickip.local\UPGRADEFORTES\Fortes\AG"
+$pasta_redeAG = "INSERT A UNC PATH HERE"
 
 # Path to AG localhost folder
-$destinoAG = "C:\Fortes\AG"
+$destinoAG = "INSERT THE DESTINY OF YOUR FORTES FOLDER HERE"
 
 # Verify if the network's AG folder does exist
 if (Test-Path $pasta_redeAG -PathType Container) {
@@ -74,10 +74,10 @@ if (Test-Path $pasta_redeAG -PathType Container) {
 
 
 # path to Ponto network folder
-$pasta_redePONTO = "\\arquivos.clickip.local\UPGRADEFORTES\Fortes\Ponto"
+$pasta_redePONTO = "INSERT A UNC PATH HERE"
 
 # Path to Ponto localhost's folder
-$destinoPONTO = "C:\Fortes\Ponto"
+$destinoPONTO = "INSERT THE DESTINY OF YOUR FORTES FOLDER HERE"
 
 # Verify if the network's Ponto folder does exist
 if (Test-Path $pasta_redePONTO -PathType Container) {
@@ -109,4 +109,6 @@ if (Test-Path $pasta_redePONTO -PathType Container) {
     Write-Host "Network's AC folder wasn't found. Automation will not be made."
 }
 
-pause
+
+
+
