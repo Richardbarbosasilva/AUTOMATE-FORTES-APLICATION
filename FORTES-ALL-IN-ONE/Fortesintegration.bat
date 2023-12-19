@@ -1,5 +1,6 @@
 @echo off
 
+::The following command makes the CMD's window do not open when starting to execute
 if not DEFINED IS_MINIMIZED set IS_MINIMIZED=1 && start "" /min "%~dpnx0" %* && exit
 
 :: Criar as variáveis responsáveis por identificar o caminho do script PowerShell nos principais pontos de salvamento de arquivos do PC do usuário 
