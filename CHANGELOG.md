@@ -15,7 +15,7 @@
 ### Adicionado
 - Os scripts se autoexecutam em modo minimizado, sem exibir janelas na área de trabalho do usuário.
 - O tempo de execução do script foi reduzido em mais da metade (geralmente menos de 6 segundos).
-- 
+
 ## [1.1] - 19/12/2023
 
 ### Adicionado
