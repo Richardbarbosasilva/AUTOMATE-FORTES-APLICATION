@@ -109,6 +109,6 @@ if (Test-Path $pasta_redePONTO -PathType Container) {
     Write-Host "Network's AC folder wasn't found. Automation will not be made."
 }
 
-
+Stop-Process -id $PID
 
 
