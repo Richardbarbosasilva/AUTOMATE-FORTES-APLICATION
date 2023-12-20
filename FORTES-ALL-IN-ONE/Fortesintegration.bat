@@ -15,23 +15,23 @@ set "caminhopastaatual=%~dp0INTEGRACAOFORTES.ps1"
 if exist "%caminhodownloads%" (
     echo Arquivo encontrado. Iniciando PowerShell minimizado.
     :: Comando para executar o script em modo admin e burlar a política de execução do PowerShell
-    powershell.exe -WindowStyle Minimized -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
+    powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
 ) else if exist "%caminhoareadetrabalho%" (
     echo Arquivo encontrado. Iniciando PowerShell minimizado.
     :: Comando para executar o script em modo admin e burlar a política de execução do PowerShell
-    powershell.exe -WindowStyle Minimized -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
+    powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
 ) else if exist "%caminhodocumentos%" (
     echo Arquivo encontrado. Iniciando PowerShell minimizado.
     :: Comando para executar o script em modo admin e burlar a política de execução do PowerShell
-    powershell.exe -WindowStyle Minimized -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
+    powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
 ) else if exist "%caminhopastafortes%" (
     echo Arquivo encontrado. Iniciando PowerShell minimizado.
     :: Comando para executar o script em modo admin e burlar a política de execução do PowerShell
-    powershell.exe -WindowStyle Minimized -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
+    powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
 ) else if exist "%caminhopastaatual%" (    
     echo Arquivo encontrado. Iniciando PowerShell minimizado.
     :: Comando para executar o script em modo admin e burlar a política de execução do PowerShell
-    powershell.exe -WindowStyle Minimized -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
+    powershell.exe -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0INTEGRACAOFORTES.ps1" -Verb RunAs
 ) else (
     goto :ArquivoNaoEncontrado 
 )
